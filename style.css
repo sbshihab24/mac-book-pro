@@ -1,0 +1,74 @@
+body {
+	background: #fff;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+	border-radius: 5px;
+}
+
+.button1:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.button2 {
+	background-color: white;
+	color: black;
+	border: 2px solid #008CBA;
+	border-radius: 5px;
+}
+
+.button2:hover {
+	background-color: #008CBA;
+	color: white;
+}
+
+/* Calculate price css stat here  */
+
+.productList {
+	width: 900px;
+
+}
+
+.product {
+	border-bottom: 1px dashed #aaa;
+	padding: 20px 0;
+}
+
+.product .name {
+	font-weight: bold;
+}
+
+.product .price {
+	float: right;
+}
+
+/* pomo code css start here  */
+.subscrib-btn-buy-now {
+	background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%);
+	color: white;
+	border-radius: 8px;
+	padding: 9px 25px;
+	/* border: none; */
+	display: inline-block;
+}
+
+#totat {
+	text-align: center;
+}
